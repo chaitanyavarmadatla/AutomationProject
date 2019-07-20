@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6164" started-at="2019-07-07T08:54:22Z" finished-at="2019-07-07T08:54:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6164" started-at="2019-07-07T08:54:22Z" finished-at="2019-07-07T08:54:28Z">
+      <class name="tests.POMNavigation">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:tests.POMNavigation@5034c75a]" name="startBrowser" is-config="true" duration-ms="9880" started-at="2019-07-07T14:24:12Z" finished-at="2019-07-07T14:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:tests.POMNavigation@5034c75a]" name="verifyLogin" duration-ms="6146" started-at="2019-07-07T14:24:22Z" finished-at="2019-07-07T14:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- tests.POMNavigation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

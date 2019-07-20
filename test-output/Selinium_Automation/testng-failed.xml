@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selinium_Automation]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://demo.opencart.com"/>
+  <test name="TestNg(failed)">
+    <classes>
+      <class name="TestNg.Login">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="searchFunctionality"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="cartverification"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestNg.Login -->
+      <class name="TestNg.Dashboard">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestNg.Dashboard -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Selinium_Automation] -->
